@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Digi24 Ukraine</title>
+	<link rel="shortcut icon" href="assets/img/favicons/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<!-- <div class="modal" role="alert">
+  <button class="close" role="button">X</button>
+
+  <form id="contact" name="contact" class="form" method="post" action="php_includes/zakaz.php">
+      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Ваше имя" required="">
+
+      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Ваш телефон" required="">
+
+      <button id="send" class="btn" type="button"  >Заказать</button>
+  </form>
+
+</div>
+
+<div class="modal2" id="modal2">
+  <h5 align="center">Ваш запрос отправлен!</h5>
+</div>  -->
+
+<!-- modal end -->
+
+	<div class="wraper">
+		<div class="topbar">
+			<div class="container">
+				<div class="topbar-wrap">
+						<div class="top-contact">Нужна помощь? Suport: +38 (093) 857 14 99 </div>
+						<div class="user-tools">
+						<div class="login"><i class="user"></i> <a href="">Login</a> |</div>
+						<div class="language">
+							<select class="form-control" onchange="if (this.value) window.location.href = this.value;">
+				    			
+								<option value="http://www.digi24.com.ua/"> Ru </option> 
+								<option value="http://www.digi24.io/"> En </option>  
+			  				</select>
+						</div>
+				</div>	
+				</div>
+								
+			</div>			
+		</div>
+
+		<header>
+			<div class="container">
+				<div class="header-wrap">
+					<div class="logo">
+					<img src="img/logo1.svg" height="80" width="120">
+					</div>
+					<nav>
+						<ul>
+							<li><a class="active"  href="/">Главная</a></li>
+							<li><a href="how-it-works.html">Как это работает</a></li>
+							<li><a href="advantages.html">Преимущества</a></li>
+							<li><a href="price.html">Цены</a></li>
+							<li><a href="store.html">Магазин</a></li>
+							<li><a href="contacts.html">Контакты</a></li>
+							<li><a href="contacts.html"><i class="fa fa-shopping-cart fa-2x"></i> (1)</a></li>
+						</ul>
+					</nav>
+				</div>				
+			</div>
+		</header>
+
+
+
+		<section>
+			<div class="home">
+				<div class="container">
+					<div class="home-wrap">
+						<div class="one-part">
+							<div class="title">
+								<h1>Digi - Smart Router</h1>
+								<h2>Умный Wi-Fi роутер для вашего дома!</h2>
+								<hr>
+							</div>							
+							<div class="list-box">
+								<ul class="list1">
+									<li>
+										<div class="icon">
+											<img src="_includes/icons/icon-security.svg">											
+										</div>
+											<a href="">Безопасность</a>	
+
+									</li>
+									<li>
+										<div class="icon">
+											<img src="_includes/icons/icon-light.svg">
+										</div>
+											<a href="">Управление освещением</a></li>
+								</ul>
+								<ul class="list2">
+									<li>
+									<div class="icon">
+										<img src="_includes/icons/icon-climat.svg">
+									</div>
+									<a href="">Управление климатом</a>
+									</li>
+									<li>
+									<div class="icon">
+										<img src="_includes/icons/icon-electro.svg">
+									</div>
+									<a href="">Управление электроприборами</a>
+									</li>
+									
+								</ul>
+							</div>
+							<div class="header-button">
+								<button class="btn">
+									Предзаказ
+								</button>						
+							</div>
+						</div>
+
+						<div class="two-part">
+							<img src="img/router.png" >
+						</div>
+					</div>					
+				</div>
+				
+			</div>
+		</section>
+
+		<section>
+			<div class="security">
+				<div class="container">
+						<h2>Безопасность</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+						<div class="security-wrap">
+							<div class="security-box">
+
+								<div onclick="touchRock();" class="icon-gas">
+									<img class="active" src="_includes/icons/icon-gas.svg">
+									<span>Газ</span>
+								</div>
+
+								<div onclick="touchRock2();" class="icon-water">
+									<img src="_includes/icons/icon-water.svg">
+									<span>Вода</span>
+								</div>
+
+								<div onclick="touchRock3();" class="icon-burn">
+									<img  src="_includes/icons/icon-fire.svg">
+									<span>Пожар</span>
+								</div>
+
+
+								<div onclick="touchRock4();" class="icon-open">
+									<img  src="_includes/icons/icon-open.svg">
+									<span>Открытие</span>
+								</div>
+								<div onclick="touchRock5();" class="icon-move">
+									<img  src="_includes/icons/icon-motion.svg">
+									<span>Движение</span>
+								</div>											
+
+								<div onclick="touchRock6();" class="icon-video">
+									<img  src="_includes/icons/icon-camera.svg">
+									<span>Камера</span>
+								</div>
+				
+							</div>
+					
+							<div class="room-wrap">
+									
+									<div class="security-img">
+										<div class="push">
+											<div class="push-app-name">Digi 24</div>
+											<div id="result" class="push-contant">Превышено содержание газа! </div>
+										</div>
+
+										<img src="img/iphone.png">
+										
+									</div>	
+
+									<div class="room-box" id="room">
+										<img id="rockSrc" src="img/Gas2.jpg" >
+									</div>
+										
+							</div>
+						</div>						
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="light">
+				<div class="container">
+						<h2>Управление освещением</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+
+					<div class="light-box">
+
+
+						
+
+						<div class="light-img2">
+							<img class="lightchange" src="img/light1.jpg">							
+						</div> 
+						
+
+
+						<div class="light-img">
+							
+
+
+							 <div class="light-control">
+								<div class="card yelow">
+	                                    <div class="card-content waves-effect waves-block waves-light yellow white-text">
+	                                        <p class="card-stats-title">Свет</p>
+	                                        	<i class="fa fa-3 fa-lightbulb-o"></i>
+	                                        
+	                                        <p><i>Лампа на столе</i></p>
+	                                    </div>
+	                                    <div class="card-action ">
+	                                        <div id="clients-bar">
+	                                            <div class="main-switch">
+	                                            <div class="switch center">
+	                                                <label>
+	                                                    Off
+	                                                    <input id="light" type="checkbox">
+	                                                    <span class="lever"></span>
+	                                                    On
+	                                                </label>
+	                                            </div>
+	                                            </div>
+	                                        </div>
+	                                    </div>
+	                            </div>
+							</div> 
+
+							<img src="img/iphone-right.png">
+						</div>						
+
+					</div>
+
+						
+
+						
+				</div>
+			</div>
+		</section>
+
+
+
+		<section>
+			<div class="climat">
+				<div class="container">
+					<h2>Управление климатом</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+
+					<div class="climat-box">
+						
+						<div class="climat-one-part ">
+							
+						</div>
+
+						<div class="climat-control">
+							
+								<div id="thermometer">
+								    <div id="thermometer-top">
+								        <div id="thermometer-fill"></div>
+								    </div>
+								    <div id="thermometer-bottom">
+								        <span>15</span>
+								    </div>
+								</div>
+
+								<div class="climatform">
+								    <form>
+								      
+								      <input type="range" class="thermometer-toggle" name="thermometer" value="15" min="0" max="50">
+								    </form>
+								</div>    
+						</div>
+
+
+
+
+					</div>			
+
+
+				</div>
+			</div>
+		</section> 
+
+		<section>
+			<div class="control">
+				<div class="container">
+					<h2>Управление электроприборами</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+
+					<div class="control-box">
+						
+						<div class="control-one-part ">
+							
+						</div>
+
+						<!-- -->
+
+						<div class="things-control">
+								<div class="card offset gray  ">
+	                                    <div class="card-content waves-effect waves-block waves-light yellow white-text">
+	                                        <p class="card-stats-title">Розетка</p>
+	                                        	<i class="fa fa-bolt"></i>
+	                                        
+	                                        <p><i>Холодильник</i></p>
+	                                    </div>
+	                                    <div class="card-action darken2 ">
+	                                        <div id="clients-bar">
+	                                            <div class="main-switch">
+	                                            <div class="switch center">
+	                                                <label>
+	                                                    Off
+	                                                    <input id="control1" type="checkbox">
+	                                                    <span class="lever"></span>
+	                                                    On
+	                                                </label>
+	                                            </div>
+	                                            </div>
+	                                        </div>
+	                                    </div>
+	                            </div>
+
+	                            <div class="card offset gray ">
+	                                    <div class="card-content waves-effect waves-block waves-light yellow white-text">
+	                                        <p class="card-stats-title">Розетка</p>
+	                                        	<i class="fa fa-bolt"></i>
+	                                        
+	                                        <p><i>Холодильник</i></p>
+	                                    </div>
+	                                    <div class="card-action darken2 ">
+	                                        <div id="clients-bar">
+	                                            <div class="main-switch">
+	                                            <div class="switch center">
+	                                                <label>
+	                                                    Off
+	                                                    <input id="control2" type="checkbox">
+	                                                    <span class="lever"></span>
+	                                                    On
+	                                                </label>
+	                                            </div>
+	                                            </div>
+	                                        </div>
+	                                    </div>
+	                            </div>
+
+	                            <div class="card offset gray ">
+	                                    <div class="card-content waves-effect waves-block waves-light yellow white-text">
+	                                        <p class="card-stats-title">Розетка</p>
+	                                        	<i class="fa fa-bolt"></i>
+	                                        
+	                                        <p><i>Микроволновка</i></p>
+	                                    </div>
+	                                    <div class="card-action darken2 ">
+	                                        <div id="clients-bar">
+	                                            <div class="main-switch">
+	                                            <div class="switch center">
+	                                                <label>
+	                                                    Off
+	                                                    <input id="control3" type="checkbox">
+	                                                    <span class="lever"></span>
+	                                                    On
+	                                                </label>
+	                                            </div>
+	                                            </div>
+	                                        </div>
+	                                    </div>
+	                            </div>
+						</div> 
+						<!-- -->
+
+
+
+						
+					</div>			
+
+
+				</div>
+			</div>
+		</section> 
+
+
+<section>
+			<div class="seo">
+				<div class="container">
+					<h2>Система умный дом</h2>
+
+
+						<p>Что такое умный дом? - Этот текст нужен для СЕО Этот текст нужен для СЕО Этот текст нужен для СЕО Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+</section> 
+
+<footer>
+<div class="container">
+  <div class="footer-wrap">
+    <div class="footer-box">
+      <span class="hero">Подписаться</span>
+      <hr>
+      <p>
+        Не пропускайте интересные события, присоединившись к нашей программе рассылок
+      </p>
+      <form  action="http://texha.us3.list-manage.com/subscribe/post?u=a5583a05ab14ef2693ad3e543&amp;id=cb67a3b490" method="post">
+        <p>
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required=""></p>
+        <button onsubmit="yaCounter23242912.reachGoal('subscribe'); return true;" type="submit" class="btn">Подпишись</button>
+      </form>
+    </div>
+
+    <div class="footer-box">
+      <span class="hero">Контакты</span>
+      <hr> <strong>Главный офис Digi24 в Украине</strong>
+      <ul>
+        <li>
+          <i class="fa  fa-home"></i>
+          <span>
+            398908, г.Киев м. Палац Украина
+          </span>
+        </li>
+        <li>
+          <i class="fa  fa-envelope-o"></i>
+          <span>office@digi24.io</span>
+        </li>
+        <li>
+          <i class="fa fa-phone"></i>
+          <span>+7 (499) 677-59-71 - Пацало</span>
+        </li>
+        <li>
+          <i class="fa fa-phone"></i>
+          <span>+7 (499) 322-86-52 - Мазур</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-box social">
+      <span class="hero">Мы в соцсетях</span>
+      <hr>
+      <!-- Social -->
+
+      <div class="footer-navigation-widgets">
+        <div class="widget-social-icons">
+          <a class="social-icons-link" href="https://www.facebook.com/" target="_blank">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a class="social-icons-link" href="https://twitter.com/" target="_blank">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a class="social-icons-link" href="https://www.youtube.com/user/" target="_blank">
+            <i class="fa fa-youtube"></i>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Social end --> </div>
+
+  </div>
+</div>
+
+<div class="copy-box">
+  <div class="container">
+    <div class="copy-box-wraper">
+      <p>
+        2013 - 2016 © Компания Digi24 "Умный Wi-Fi роутер" / Все права защищены. Любое копирование материала с сайта без письменного разрешения запрещено.
+      </p>
+      <p>
+        Сделано с 
+        <i class="fa fa-heart"></i>
+         в
+        <a href="">Redstudio.com.ua</a>
+      </p>
+    </div>
+
+  </div>
+</div>
+
+</footer>
+
+
+
+
+		
+	</div>	
+	
+
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>   
+	    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+
+.close 
+  position: absolute
+  top: 0
+  right: 0
+  width: 35px
+  height: 30px
+  background: #000
+  color: #fff
+  cursor: pointer
+  border: 0
+
+.modal 
+  position: absolute
+  top: 10%
+  left: 40%
+  width: 290px
+  height: 180px
+  background: #bdc3c7
+  padding-top: 30px
+  z-index: 100
+  visibility: hidden
+  opacity: 0
+  transition: 0.5s ease-out
+  transform: translateY(45px)
+
+  @media (max-width: 991px)
+    left: 10%
+
+.form
+  input
+    width: 250px
+    float: left
+    margin-top: 10px
+    margin-right: 10px
+    margin-left: 10px
+
+  button 
+    margin-top: 20px
+    //margin-right: 50px
+    margin-left: 75px
+
+.modal2 
+  position: absolute
+  top: 10%
+  left: 40%
+  width: 290px
+  height: 45px
+  background: $gray
+  color: #fff
+  z-index: 101
+  visibility: hidden
+  opacity: 0
+  padding-bottom: 10px
+  transition: 0.5s ease-out
+  transform: translateY(45px)
+
+  @media (max-width: 991px)
+    left: 10%
+
+
+.active 
+  visibility: visible
+  opacity: 1
+
+// .active + .modal 
+//   visibility: visible
+//   opacity: 1
+//   transform: translateY(0)

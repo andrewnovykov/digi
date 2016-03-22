@@ -1,0 +1,82 @@
+.exchange-rates
+	margin-right: 10px
+
+.category-wrap
+	display: flex
+	flex-flow: row wrap
+	+align-items(center)
+	justify-content: center
+
+.category-box
+	margin-left: 10px
+	border: 1px solid $myblue
+	border-radius: 5px
+	padding: 5px
+
+	&:hover
+	 	background: $myblue
+	
+	&:hover > a 
+	 	color: $white
+
+.cat-active
+	background: $myblue
+
+	a 
+		color: $white
+
+
+.products-wraper
+	display: flex
+	flex-flow: row wrap
+	+align-items(center)
+	justify-content: center
+
+.product-box
+	display: flex
+	flex-flow: column wrap
+	+align-items(center)
+	justify-content: center
+	flex: 1 1 150px
+	margin: 20px
+	max-width: 150px
+	border: 1px solid #ccc
+	border-radius: 5px
+	padding: 5px
+
+.product-name
+	font-size: 18px
+	//border-bottom: 1px solid $gray
+	margin-bottom: 5px
+	//width: 100%
+
+
+.product-buy
+	display: flex
+	flex-flow: row wrap
+	+align-items(center)
+	justify-content: space-around
+	width: 100%
+	border-top: 1px solid #ccc
+
+.product-price
+	.price
+		font-size: 21px
+		color:  $myblue
+
+
+
+
+.product-cart
+	margin-left: 15px
+	width: 30px
+	padding: 5px
+	//border: 1px solid $myblue
+	//border-radius: 5px
+	//background: $myblue
+
+	a 
+		color:  $myblue
+
+
+	 

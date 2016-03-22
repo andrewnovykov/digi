@@ -1,0 +1,122 @@
+.range-field 
+  position: relative
+
+input[type=range], input[type=range] + .thumb 
+  cursor: pointer
+
+input[type=range] 
+  position: relative
+  background-color: transparent
+  border: none
+  outline: none
+  width: 100%
+  margin: 15px 0px
+  padding: 0
+
+input[type=range] + .thumb 
+  position: absolute
+  border: none
+  height: 0
+  width: 0
+  border-radius: 50%
+  /*background-color: #ff4081;*/
+  top: 10px
+  margin-left: -6px
+  transform-origin: 50% 50%
+  transform: rotate(-45deg)
+
+input[type=range] + .thumb .value 
+  display: block
+  width: 30px
+  text-align: center
+  color: #ff4081
+  font-size: 0
+  transform: rotate(45deg)
+
+  input[type=range] + .thumb.active 
+  border-radius: 50% 50% 50% 0
+
+input[type=range] + .thumb.active .value 
+  color: #fff
+  margin-left: -1px
+  margin-top: 8px
+  font-size: 10px
+
+input[type=range]:focus 
+  outline: none
+
+input[type=range] 
+  -webkit-appearance: none
+
+input[type=range]::-webkit-slider-runnable-track 
+  height: 3px
+  background: #000
+  border: none
+
+input[type=range]::-webkit-slider-thumb 
+  -webkit-appearance: none
+  border: none
+  height: 21px
+  width: 21px
+  border-radius: 50%
+  background-color: #F1F1F1 
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4)
+  transform-origin: 50% 50%
+  margin: -5px 0 0 0
+  transition: 0.3s
+  margin: -8px
+
+
+input[type=range]:focus::-webkit-slider-runnable-track 
+  background: #ff4081
+
+
+input[type=range]::-moz-range-track 
+  height: 3px
+  background: #fff
+  border: none
+
+input[type=range]::-moz-range-thumb 
+  border: none
+  height: 14px
+  width: 14px
+  border-radius: 50%
+  background: #fff
+  margin-top: -5px
+
+/*hide the outline behind the border*/
+input[type=range]:-moz-focusring 
+  outline: 1px solid white
+  outline-offset: -1px
+
+input[type=range]:focus::-moz-range-track 
+  background: #fff
+
+input[type=range]::-ms-track 
+  height: 3px
+  /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
+  background: transparent
+  /*leave room for the larger thumb to overflow with a transparent border */
+  border-color: transparent
+  border-width: 6px 0
+  /*remove default tick marks*/
+  color: transparent
+
+input[type=range]::-ms-fill-lower 
+  background: #fff
+
+input[type=range]::-ms-fill-upper 
+  background: #fff
+
+input[type=range]::-ms-thumb 
+  border: none
+  height: 14px
+  width: 14px
+  border-radius: 50%
+  background: #fff
+
+input[type=range]:focus::-ms-fill-lower 
+  background: #fff
+
+input[type=range]:focus::-ms-fill-upper 
+  background: #fff
